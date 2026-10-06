@@ -47,3 +47,22 @@
 - Exécuter setup_mysql.sql dans phpMyAdmin.
 - Générer les pom.xml Spring Boot 3.2.4 pour les services Java.
 - Implémenter l'API Gateway avec routage dynamique vers Eureka.
+## Date : 06/10/2026 14:24
+## Auteur : ahmedsb22
+
+### ✅ Modifications effectuées :
+- Génération automatique de 5 pom.xml Spring Boot 3.2.4 + Spring Cloud 2023.0.1.
+- Création des classes Application Java pour Eureka, Gateway, User, Flight, Booking.
+- Configuration application.properties/yml avec URLs JDBC MySQL XAMPP et Eureka.
+- Implémentation du service Python FastAPI (notification-service) avec init_async Eureka.
+- Swagger/OpenAPI activé sur tous les services Java.
+
+### 👥 Contributions :
+- ahmedsb22 : Architecture complète, Infrastructure, Booking, Git
+- samibaazaoui : Flight, Payment, Frontend Angular  
+- mohamed.hazem : User, Notification, Tests & Documentation
+
+###  Prochaines étapes :
+- Exécuter setup_mysql.sql dans phpMyAdmin (XAMPP).
+- Lancer Eureka Server (port 8761) puis Gateway (8080) puis les MS.
+- Tester les endpoints Swagger : http://localhost:8081/swagger-ui.html
