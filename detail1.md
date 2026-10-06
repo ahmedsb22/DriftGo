@@ -17,3 +17,16 @@
 - Créer les bases MySQL via XAMPP (UserDB, FlightDB, BookingDB).
 - Générer les pom.xml Spring Boot 3.2.4 pour les 5 microservices Java.
 - Implémenter l'API Gateway avec routage dynamique vers Eureka.
+
+## Date : 06/10/2026 14:16
+## Auteur : ahmedsb22
+
+### ✅ Modifications effectuées :
+- Push initial réussi vers ahmedsb22/DriftGo (branche main).
+- Création de la structure de dossiers pour 5 microservices + Gateway + Eureka.
+- Génération du script setup_mysql.sql pour l'initialisation des bases XAMPP.
+
+### 🔜 Prochaines étapes :
+- Exécuter setup_mysql.sql dans phpMyAdmin (localhost:8080/phpmyadmin).
+- Générer les pom.xml Spring Boot 3.2.4 pour chaque service Java.
+- Configurer application.properties avec les URLs JDBC vers XAMPP.
