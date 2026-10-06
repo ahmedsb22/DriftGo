@@ -66,3 +66,22 @@
 - Exécuter setup_mysql.sql dans phpMyAdmin (XAMPP).
 - Lancer Eureka Server (port 8761) puis Gateway (8080) puis les MS.
 - Tester les endpoints Swagger : http://localhost:8081/swagger-ui.html
+## Date : 06/10/2026 14:28
+## Auteur : ahmedsb22
+
+### ✅ Corrections et Ajouts :
+- CORRECTION CRITIQUE : Syntaxe pom.xml réparée ( fonctionne maintenant).
+- Génération des classes Application.java pour user-service, flight-service, booking-service.
+- Configuration JDBC MySQL XAMPP intégrée dans chaque microservice.
+- Création du service Angular FlightService pour consommer l'API via Gateway.
+- Swagger/OpenAPI activé sur tous les endpoints.
+
+### 👥 État des contributions :
+- ahmedsb22 : Infrastructure complète, Booking, Git, Correction pom.xml
+- samibaazaoui : En attente de configuration locale (voir README_GIT.md)
+- mohamed.hazem : En attente de configuration locale
+
+### 🔜 Prochaines étapes immédiates :
+- Exécuter setup_mysql.sql dans phpMyAdmin.
+- Lancer Eureka (8761) puis Gateway (8080) puis les MS.
+- Tester Swagger : http://localhost:8082/swagger-ui.html
