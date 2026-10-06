@@ -85,3 +85,21 @@
 - Exécuter setup_mysql.sql dans phpMyAdmin.
 - Lancer Eureka (8761) puis Gateway (8080) puis les MS.
 - Tester Swagger : http://localhost:8082/swagger-ui.html
+## Date : 06/10/2026 14:30
+## Auteur : ahmedsb22
+
+### ✅ CORRECTIONS CRITIQUES APPLIQUÉES :
+- CRÉATION DES DOSSIERS JAVA MANQUANTS (userservice, flightservice, bookingservice).
+- RÉPARATION SYNTAXE POM.XML :  est maintenant correctement résolu par Maven.
+- GÉNÉRATION DES CLASSES Application.java ET CONFIGURATIONS JDBC MYSQL XAMPP.
+- SWAGGER/OpenAPI ACTIVÉ SUR TOUS LES ENDPOINTS.
+
+###  CONTRIBUTIONS :
+- ahmedsb22 : Infrastructure complète, Booking, Git, Réparation pom.xml
+- samibaazaoui : Flight, Payment, Frontend Angular  
+- mohamed.hazem : User, Notification, Tests & Documentation
+
+### 🔜 PROCHAINES ÉTAPES IMMÉDIATES :
+- Exécuter setup_mysql.sql dans phpMyAdmin (XAMPP).
+- Lancer Eureka (8761) puis Gateway (8080) puis les MS.
+- Tester Swagger : http://localhost:8082/swagger-ui.html
