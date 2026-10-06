@@ -30,3 +30,20 @@
 - Exécuter setup_mysql.sql dans phpMyAdmin (localhost:8080/phpmyadmin).
 - Générer les pom.xml Spring Boot 3.2.4 pour chaque service Java.
 - Configurer application.properties avec les URLs JDBC vers XAMPP.
+## Date : 06/10/2026 14:21
+## Auteur : ahmedsb22
+
+### ✅ Modifications effectuées :
+- Structure backend complète créée (5 MS Java + 1 MS Python + Gateway + Eureka).
+- Script setup_mysql.sql généré pour initialiser les 4 bases XAMPP.
+- Arborescence conforme au cahier des charges ESPRIT S4 (Pattern Saga, Stocks limités).
+
+### 👥 Membres configurés :
+- ahmedsb22 <ahmedsb22@esprit.tn> (Architecture, Booking, Git)
+- samibaazaoui <Sami.Baazaoui@esprit.tn> (Flight, Payment, Frontend)
+- mohamed.hazem <Mohamedhazem.Amor@esprit.tn> (User, Notification, Tests)
+
+###  Prochaines étapes :
+- Exécuter setup_mysql.sql dans phpMyAdmin.
+- Générer les pom.xml Spring Boot 3.2.4 pour les services Java.
+- Implémenter l'API Gateway avec routage dynamique vers Eureka.
